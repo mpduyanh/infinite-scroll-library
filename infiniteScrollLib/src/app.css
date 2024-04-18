@@ -1,0 +1,13 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* #parentRef::-webkit-scrollbar {
+  display: none;
+}
+
+#parenRef {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+} */

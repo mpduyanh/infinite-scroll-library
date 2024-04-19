@@ -8,7 +8,8 @@
 
 This app utilizes virtual scrolling to efficiently load and display large text files. It also includes features for text searching, highlighting, and jumping to specific occurrences of the search term.
 
-##How to Clone Repository
+## How to Clone Repository
+
 Use the following command in the terminal:
 
 ```md
@@ -24,6 +25,7 @@ git clone https://github.com/mpduyanh/infinite-scroll-library.git
    - Run `npm run dev` to start the frontend server.
 
 2. **Backend Initialization**:
+
    - Navigate to the `flask-server` directory.
    - Activate the virtual environment by running `source venv/bin/activate`.
    - Run `pip3 install Flask` to run a Flask server locally.

@@ -46,3 +46,7 @@ git clone https://github.com/mpduyanh/infinite-scroll-library.git
 - **Text Searching**: Users can search for specific words or phrases within the text.
 - **Text Highlighting**: Highlights the searched text within the viewport.
 - **Jumping to Text**: Provides buttons to jump to the next or previous occurrence of the searched text within the viewport.
+
+## License
+
+[MIT License](LICENSE)

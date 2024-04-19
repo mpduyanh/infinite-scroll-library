@@ -1,5 +1,9 @@
 # Infinite Scroll App
 
+## Requirement
+
+**Please install [Node.Js](https://nodejs.org/en) for this project to run**
+
 ## Overview
 
 This app utilizes virtual scrolling to efficiently load and display large text files. It also includes features for text searching, highlighting, and jumping to specific occurrences of the search term.
@@ -7,12 +11,16 @@ This app utilizes virtual scrolling to efficiently load and display large text f
 ## How to Initialize
 
 1. **Frontend Initialization**:
+
    - Navigate to the `infiniteScrollLib` directory.
+   - Run `npm install` to install all necessary dependencies for the frontend.
    - Run `npm run dev` to start the frontend server.
 
 2. **Backend Initialization**:
    - Navigate to the `flask-server` directory.
-   - Activate the virtual environment by running `venv/bin/activate`.
+   - Activate the virtual environment by running `source venv/bin/activate`.
+   - Run `pip3 install Flask` to run a Flask server locally.
+   - Run `pip3 install Flask-Cors` to install Flask Cors library in order to establish connection with the frontend.
    - Run `python3 server.py` to start the backend server.
 
 ## Changing Text Files

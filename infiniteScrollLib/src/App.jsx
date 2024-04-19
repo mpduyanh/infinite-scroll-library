@@ -5,6 +5,11 @@ import RowVirtualizer from "./components/RowVirtualizer";
 import Fuse from "fuse.js";
 import "./app.css";
 
+/**
+ * App Component
+ * @returns {JSX.Element} - Rendered component
+ */
+
 export default function App() {
   const [dataSource, setDataSource] = useState([]);
   const [wordSearch, setWordSearch] = useState("");
